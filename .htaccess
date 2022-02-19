@@ -1,0 +1,21 @@
+php_value display_errors on
+
+RewriteEngine On
+
+RewriteRule ^Accueil$  index.php?action=index
+RewriteRule ^Admission$  index.php?action=admission
+RewriteRule ^A-propos$  index.php?action=about
+RewriteRule ^Services$  index.php?action=services
+RewriteRule ^Étudier-au-Maroc$  index.php?action=maroc
+RewriteRule ^Étudier-en-Tunisie$  index.php?action=tunisie
+RewriteRule ^Étudier-en-France$  index.php?action=france
+RewriteRule ^Étudier-au-Canada$  index.php?action=canada
+RewriteRule ^Étudier-au-Chypre-du-nord$  index.php?action=chypre
+RewriteRule ^Étudier-en-Biélorussie$  index.php?action=bielorussie
+RewriteRule ^Étudier-en-Russie$  index.php?action=russie
+RewriteRule ^Étudier-en-Ukraine$  index.php?action=ukraine
+RewriteRule ^Étudier-en-Turquie$  index.php?action=turquie
+RewriteRule ^Étudier-en-Australie$  index.php?action=australie
+RewriteRule ^Contacter$  index.php?action=contacter
+RewriteRule ^Admission_documents$  index.php?action=sentDocument
+RewriteRule ^Admin$ index.php?action=admin

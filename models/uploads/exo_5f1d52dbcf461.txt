@@ -1,0 +1,20 @@
+j = 5
+k = 7
+somme = 0
+while (k  2013 or j  2013)
+    if (k  2013 or k%5 == 0) 
+        somme = somme + j  
+    else 
+       somme = somme + j + k
+    k = k+7
+    j= j+5
+print(somme)
+
+
+somme = 0
+k = 0
+while (k <2013):
+    if(k % 5 == 0 or k % 7 == 0 ) :
+        somme = somme +k
+    k+=1
+print(somme)
